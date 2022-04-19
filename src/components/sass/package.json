@@ -1,0 +1,18 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss-Header": "node-sass ./scss/Header.scss ./css/Header.css --watch",
+    "scss-NavMenu": "node-sass ./scss/NavMenu.scss ./css/NavMenu.css --watch",
+    "scss-HomePage": "node-sass ./scss/HomePage.scss ./css/HomePage.css --watch",
+    "scss-HomePostPage": "node-sass ./scss/HomePostPage.scss ./css/HomePostPage.css --watch",
+    "scss-WecomePage": "node-sass ./scss/WecomePage.scss ./css/WecomePage.css --watch",
+    "scss-LoginPage": "node-sass ./scss/LoginPage.scss ./css/LoginPage.css --watch",
+    "scss-RegisterPage": "node-sass ./scss/RegisterPage.scss ./css/RegisterPage.css --watch" 
+  },
+  "author": "",
+  "license": "ISC"
+}

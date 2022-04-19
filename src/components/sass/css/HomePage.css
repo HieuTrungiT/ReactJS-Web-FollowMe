@@ -1,0 +1,14 @@
+.container-app {
+  margin: 0 auto; }
+  .container-app .container-content .content-navLeft {
+    float: left;
+    width: 20%;
+    height: 500px; }
+    .container-app .container-content .content-navLeft .navLeft {
+      width: 100%;
+      height: 500px;
+      border-right: 1px solid #d7d6d6; }
+  .container-app .container-content .content-Right {
+    float: right;
+    height: 500px;
+    width: 80%; }
